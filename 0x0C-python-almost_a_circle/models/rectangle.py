@@ -90,8 +90,8 @@ class Rectangle(Base):
 
     def __str__(self):
         """Return Rectangle"""
-        return "[Rectangle] ({}) {}/{} - {}/{}".format\
-            (self.id, self.x, self.y, self.__width, self.__height)
+        return "[Rectangle] ({}) {}/{} - {}/{}"\
+            .format(self.id, self.x, self.y, self.__width, self.__height)
 
     def update(self, *args, **kwargs):
         """Update id, width, height, x, and y"""
